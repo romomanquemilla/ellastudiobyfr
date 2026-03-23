@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ella Studio by FR - Boudoir photography that feels like you. Soft light, honest moments, a studio experience designed around comfort." />
+    <meta name="theme-color" content="#0B0B0D" />
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Preload critical hero image -->
+    <link rel="preload" as="image" href="./images/hero_signature.jpg" type="image/jpeg" />
+    
+    <title>Ella Studio by FR</title>
+    
+    <style>
+      /* Critical CSS for initial load */
+      body {
+        margin: 0;
+        background-color: #0B0B0D;
+        color: #F7F7F5;
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

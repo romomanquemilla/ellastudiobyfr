@@ -1,0 +1,32 @@
+/* App-specific styles */
+
+/* Selection color */
+::selection {
+  background: rgba(200, 168, 118, 0.3);
+  color: #F7F7F5;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 1px solid #C8A876;
+  outline-offset: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-pinned {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
